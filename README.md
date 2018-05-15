@@ -1,5 +1,6 @@
 # Google Hangouts Chat Library for Golang
 [![Go Report Card](https://goreportcard.com/badge/github.com/seibert-media/go-hangouts)](https://goreportcard.com/report/github.com/seibert-media/go-hangouts)
+[![GoDoc](https://img.shields.io/badge/godoc-reference-blue.svg)](https://godoc.org/github.com/seibert-media/go-hangouts)
 
 Shortly after Hangouts Chat became publicly available, we built [seibert-media/hangouts-jira-bot](https://github.com/seibert-media/hangouts-jira-bot) to try out how the bot connectivity works.
 
