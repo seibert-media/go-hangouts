@@ -2,6 +2,7 @@ package hangouts
 
 // User struct
 type User struct {
+	Type        string `json:"type"`
 	Name        string `json:"name"`
 	DisplayName string `json:"displayName"`
 	AvatarURL   string `json:"avatarUrl"`
