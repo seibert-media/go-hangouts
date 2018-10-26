@@ -97,6 +97,12 @@ func (w *Widget) WithButton(b *Button) *Widget {
 	return w
 }
 
+// WithImage adds new Image to Widget
+func (w *Widget) WithImage(b *Image) *Widget {
+	w.Image = b
+	return w
+}
+
 // NewKeyValue for use in Widget
 // TopLabel and Content are required
 func NewKeyValue(topLabel, content string, multiline bool) *KeyValue {
