@@ -98,8 +98,8 @@ func (w *Widget) WithButton(b *Button) *Widget {
 }
 
 // WithImage adds new Image to Widget
-func (w *Widget) WithImage(b *Image) *Widget {
-	w.Image = b
+func (w *Widget) WithImage(i *Image) *Widget {
+	w.Image = i
 	return w
 }
 
